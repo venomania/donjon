@@ -14,14 +14,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
+
+}
+
+.logo {
+  margin: 0;
+  height: 109px;
+  margin-top: 6vh;
+}
+
+.map {
+  margin-top: 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  animation-name: start;
+  animation-duration: 6s;
 }
 
 .App-link {
@@ -32,7 +43,280 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.coffre {
+  height: 42px;
+  width: 58px;
+  padding-right: 8px;
+  margin-top: 11px;
+
+}
+
+h2 {
+
+  top: 478px;
+  left: 560px;
+  width: 100vh;
+  height: 22px;
+
+  text-align: center;
+  font: normal normal bold 20px/23px Times New Roman;
+  letter-spacing: 0.4px;
+  color: #CCCCCC;
+  opacity: 1;
+}
+
+.indice {
+  top: 511px;
+  left: 498px;
+  width: 284px;
+  height: 15px;
+
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD;
+  opacity: 1;
+  margin-top: 13px;
+}
+
+input {
+  margin-top: 19px;
+  top: 545px;
+  left: 489px;
+  width: 303px;
+  height: 36px;
+  background: #E6DDBD33 0% 0% no-repeat padding-box;
+  border: 1px solid #E6DDBD;
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD4D;
+  opacity: 1;
+}
+
+.cham2 {
+  margin-top: 10px;
+}
+
+.conteneur {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 19px;
+}
+
+input::placeholder {
+
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD4D;
+  opacity: 1;
+}
+
+input::-ms-input-placeholder {
+
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD4D;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD4D;
+  opacity: 1;
+}
+
+input,
+select,
+textarea {
+  font: normal normal bold 14px/16px Times New Roman;
+  color: #E6DDBD;
+  text-align: center;
+}
+
+
+.valide {
+  top: 592px;
+  left: 609px;
+  width: 62px;
+  height: 35px;
+  background: #E6DDBD4D 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD;
+  opacity: 1;
+  margin-top: 11px;
+}
+
+.valide:hover {
+  background: #f6e1974d 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.coffre1 {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+
+
+.textandimage {
+  width: 64vh;
+  position: absolute;
+  bottom: 40vh;
+  color: #E6DDBD;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000BF 100%) 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.textimg {
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD;
+  opacity: 1;
+  animation-name: start;
+  animation-duration: 6s;
+}
+
+.ajuste {
+  width: 326px;
+}
+
+
+.animation {
+  animation-name: start;
+  animation-duration: 12s;
+}
+
+.question {
+  width: 376px;
+  height: 70px /2;
+  background: transparent linear-gradient(90deg, #E6DDBD00 0%, #CAC3A633 32%, #AFA99033 64%, #736F5F00 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD;
+  opacity: 1;
+  margin-top: 11px;
+  border-top: solid #E6DDBD;
+  border-bottom: solid #E6DDBD;
+}
+
+
+.choix:hover {
+  background: transparent linear-gradient(90deg, #E6DDBD00 0%, #CAC3A657 32%, #AFA9904D 64%, #736F5F00 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD;
+  opacity: 1;
+}
+
+
+.btn-debut {
+  width: 346px;
+  height: 54px;
+  background: #00000000 0% 0% no-repeat padding-box;
+  border: 1px solid #E6DDBD;
+  text-align: center;
+  font: normal normal bold 20px/23px Times New Roman;
+  letter-spacing: 0.4px;
+  color: #E6DDBD;
+  opacity: 1;
+  margin-top: 12px;
+}
+
+.btn-debut:hover {
+  box-shadow: inset 0px 0px 25px #E6DDBD;
+  border: 1px solid #E6DDBD;
+  opacity: 1;
+}
+
+h2 {
+  width: 480px;
+}
+
+.choix {
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+  text-align: center;
+  font: normal normal normal 14px/16px Times New Roman;
+  letter-spacing: 0.28px;
+  color: #E6DDBD;
+  opacity: 1;
+  background: #ffffff00;
+  width: 100%;
+
+}
+
+.bandocoffre {
+  width: 487px;
+  height: 66px;
+  /* UI Properties */
+  background: transparent linear-gradient(180deg, #00000000 0%, #00000080 19%, #000000CC 51%, #00000080 79%, #6B696300 100%) 0% 0% no-repeat padding-box;
+}
+
+.ajustebando{
+  width: 64vh;
+  position: absolute;
+
+}
+
+.coffredecover{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 140px;
+  text-align: center;
+  font: normal normal normal 20px/23px Times New Roman;
+  letter-spacing: 0.4px;
+  color: #CC9933;
+}
+
+/* animation */
+@keyframes start {
+  from {
+
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+
   }
 }
